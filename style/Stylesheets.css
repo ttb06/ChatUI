@@ -1,0 +1,56 @@
+.childpan {
+    -fx-background-color: #f5f4ff;
+}
+
+.background{
+    -fx-background-color:#F9F8FD;
+}
+.side-bar {
+    -fx-background-color: #27d0f6;
+}
+.sidebar-btn{
+    -fx-background-color: transparent;
+}
+.sidebar-btn-icon{
+    -fx-fill:grey;
+}
+.sidebar-btn-text{
+    -fx-text-fill:grey;
+}
+.sidebar-btn:hover{
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-border-color: #2BBCF5;
+    -fx-border-style:solid;
+}
+.sidebar-btn:hover .sidebar-btn-icon{
+    -fx-fill:#2BBCF5;
+}
+.sidebar-btn:hover .sidebar-btn-text{
+    -fx-text-fill:#2BBCF5;
+}
+
+.searchicon{
+    -fx-border-color: #11b0ec;
+    -fx-border-width: 0px 0px 2px 0px;
+}
+
+.noit-icon{
+    -fx-background-color:red;
+    -fx-background-radius:100%;
+}
+
+.online-icon{
+     -fx-background-color: #00ff22;
+     -fx-background-radius:100%;
+ }
+
+.txtfld{
+    -fx-background-radius:20px;
+    -fx-background-color:white;
+}
+
+.txt-fld{
+    -fx-background-radius:20px;
+    -fx-background-color:blue;
+    -fx-text-fill:white;
+}
